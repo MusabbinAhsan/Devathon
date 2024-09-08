@@ -1,0 +1,151 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+.logo {
+    height: 40px;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-list li {
+    margin: 0 10px;
+}
+
+.nav-list a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.nav-list a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    nav {
+        background-color: white;
+        flex-direction: column;
+    }
+
+    .logo {
+        height: 30px;
+    }
+
+    .nav-list {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: white;
+    }
+
+    .nav-list li {
+        margin: 10px 0;
+    }
+
+    .nav-list a {
+        color: #333;
+        text-align: center;
+    }
+}
+button{
+    border-radius: 6px;
+    height: 30px;
+}
+.h1{
+font-family: "Space Grotesk", sans-serif;
+font-size: 60px;
+font-weight: 500;
+line-height: 76.56px;
+margin-right: 700px;
+position: absolute;
+position: relative;
+left: 100px;
+}
+*{
+    font-family: "Space Grotesk", sans-serif;
+}
+.h2{
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 10px;
+    margin-right: 700px;
+    position: absolute;
+    position: relative;
+    left: 100px;
+}
+.h3{
+        font-family: "Space Grotesk", sans-serif;
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 10px;
+        margin-right: 700px;
+        position: absolute;
+        position: relative;
+        left: 100px;
+        background-color: black;
+        color: azure;
+}
+@media (max-width: 768px) {
+    .h1{
+        font-family: "Space Grotesk", sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 76.56px;
+        margin-right: 700px;
+        position: absolute;
+        position: relative;
+        align-items: left;
+    }
+}
+.h4{
+    position: absolute;
+    position: relative;
+    left: 100px;
+    margin-top: -340px;
+}
+.button{
+    background-color: greenyellow;
+    border: transparent;
+    position: absolute;
+    position: relative;
+    left: 260px;
+    height: 50px;
+    width: 90px;
+}
+.layer{
+    border: 1px solid black;
+    width: 1000px;
+}
+.pa{
+     font-family: "Space Grotesk", sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 10px;
+    margin-right: 700px;
+    position: absolute;
+    position: relative;
+    left:400px;
+    top: -50px;
+}
+.name{
+    border: 2px solid black;
+    height: 4   0px;
+    width: 500px;
+}
